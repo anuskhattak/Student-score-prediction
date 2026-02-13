@@ -1,6 +1,3 @@
-📝 What to write in the README of this project?
-
-Since this is your first Regression project, make sure to include these points in the README:
 
 Title: 🎓 Student Exam Score Prediction
 
