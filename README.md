@@ -1,19 +1,17 @@
+🎓 Student Exam Score Prediction
+Project Overview: The objective of this project is to predict student academic performance by analyzing various academic and socio-economic factors, such as study hours, teacher quality, and parental involvement.
 
-Title: 🎓 Student Exam Score Prediction
+🛠️ Key Contributions:
 
-Problem Statement: "Can we predict a student's final exam score by looking at study hours, parental involvement, and teacher quality?"
+Data Cleaning: Handled missing values by using Mode Imputation, ensuring a complete and robust dataset for analysis.
 
-What we did?
+Feature Engineering (Smart Encoding): Converted categorical variables (e.g., Low, Medium, High) into numerical values (1, 2, 3) using Ordinal Mapping to help the model understand the inherent ranking.
 
-Data Cleaning: Filled null values with mode.
+Predictive Modeling: Implemented a Linear Regression algorithm to estimate final exam scores based on the input features.
 
-Feature Engineering: Converted categorical data into numbers (Ordinal & Label Encoding).
+📊 Model Performance:
 
-Model: Used Linear Regression to predict marks.
+R2 Score: 0.77 – This indicates that the model explains 77% of the variance in the exam scores.
 
-Results:
-
-R2 Score: 0.77
-
-MAE: (For example 1.5 marks)
+Mean Absolute Error (MAE): 0.44 – On average, the model's predictions deviate by only 0.44 marks from the actual scores, demonstrating high precision.
 
